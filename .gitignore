@@ -1,0 +1,28 @@
+# CRSP extracts and derived panels (licensed, not redistributable)
+*.csv
+*.parquet
+*.xlsx
+
+# Run outputs, checkpoints and logs
+hpw_outputs/
+phaseA_outputs*/
+ablation_phaseA_outputs/
+outputs_*/
+*.partial*
+*.png
+*.log
+build_report.txt
+
+# Python and environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Credentials and local settings
+.env
+*.pgpass
+.pgpass
+.DS_Store
